@@ -1,0 +1,11 @@
+useradd android
+
+su - android
+chmod 777 android
+
+mkdir testfile1
+cd testfile1
+
+echo "welcome!" > test
+
+logout
